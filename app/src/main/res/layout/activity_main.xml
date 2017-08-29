@@ -32,6 +32,7 @@
         />
 
     <EditText
+        android:id="@+id/etUsuario"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Escribe tu nombre"
@@ -39,6 +40,7 @@
         />
 
     <EditText
+        android:id="@+id/etContrasena"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Escribe tu contraseña"
@@ -47,10 +49,10 @@
 
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnIngresar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Entrar"
+        android:text="Ingresar"
         />
 
     <TextView
